@@ -1,0 +1,2265 @@
+/*-----------------------------------------------------------------------------------------------------
+
+File  Name                      :   stylesheet.css
+Author                          :
+Date written (DD/MM/YYYY)       :
+Description
+----------------------------------------------------------------------------------------------------
+CHANGE HISTORY
+----------------------------------------------------------------------------------------------------
+Date(DD/MM/YYYY)		Change By               Change Description (Bug No. (If Any))
+----------------------------------------------------------------------------------------------------
+22/07/2011                      Ripa Jain              Bug id 27646   Styleclasses are added
+----------------------------------------------------------------------------------------------------*/
+
+
+.mainbodystyle {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#f5f5f5;
+bottom:0;
+left:0;
+margin:0;
+right:0;
+top:0;
+margin:8px;
+overflow : hidden;
+}
+.mainbody {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#f5f5f5;
+bottom:0;
+left:0;
+margin:0;
+right:0;
+top:0;
+margin:8px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+.plainbodystyle {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:white;
+bottom:0;
+left:0;
+margin:0;
+right:0;
+top:0;
+overflow : hidden;
+}
+.buttonstyle
+{
+    height:26px;
+    background-color:#779999;
+    cursor: pointer;
+    background-image:url(/omniapp/javax.faces.resource/btnbg.gif.jsf?ln=images);
+    border-style : solid;
+    border-color : #dddddd;
+    border-width: 1px;
+}
+.bodywhite{
+    margin: 0px;
+    padding: 0px;
+}
+
+.oawidth0 {
+    width: 0%;
+}
+.oawidth1 {
+    width: 1%;
+}
+
+.oawidth2 {
+    width: 2%;
+}
+
+.oawidth3 {
+    width: 3%;
+}
+
+.oawidth4 {
+    width: 4%;
+}
+
+.oawidth5 {
+    width: 5%;
+}
+
+.oawidth6 {
+    width: 6%;
+}
+.oawidth7 {
+    width: 7%;
+}
+
+.oawidth8 {
+    width: 8%;
+}
+
+.oawidth9 {
+    width: 9%;
+}
+.oawidth10 {
+    width: 10%;
+}
+
+.oawidth11 {
+    width: 11%;
+}
+.oawidth12 {
+    width: 12%;
+}
+.oawidth13 {
+    width: 13%;
+}
+
+.oawidth14 {
+    width: 14%;
+}
+.oawidth15 {
+    width: 15%;
+}
+
+.oawidth16 {
+    width: 16%;
+}
+
+.oawidth17 {
+    width: 17%;
+}
+
+.oawidth18{
+    width: 18%;
+}
+.oawidth19{
+    width: 19%;
+}
+.oawidth20 {
+    width: 20%;
+}
+
+.oawidth21 {
+    width: 21%;
+}
+
+.oawidth22 {
+    width: 22%;
+}
+.oawidth23 {
+    width: 23%;
+}
+
+.oawidth24 {
+    width: 24%;
+}
+.oawidth25 {
+    width: 25%;
+}
+
+.oawidth28 {
+    width: 28%;
+}
+.oawidth29 {
+    width: 29%;
+}
+.oawidth30 {
+    width: 30%;
+}
+
+.oawidth31 {
+    width: 31%;
+}
+.oawidth33 {
+    width: 33%;
+}
+.oawidth34 {
+    width: 34%;
+}
+
+.oawidth35 {
+    width: 35%;
+}
+.oawidth36 {
+    width: 36%;
+}
+.oawidth37 {
+    width: 37%;
+}
+.oawidth38 {
+    width: 38%;
+}
+.oawidth39 {
+    width: 39%;
+}
+.oawidth40 {
+    width: 40%;
+}
+
+.oawidth41 {
+    width: 41%;
+}
+.oawidth42 {
+    width: 42%;
+}
+.oawidth43 {
+    width: 43%;
+}
+.oawidth45 {
+    width: 45%;
+}
+.oawidth46 {
+    width: 46%;
+}
+.oawidth47 {
+    width: 47%;
+}
+.oawidth48 {
+    width: 48%;
+}
+.oawidth49 {
+    width: 49%;
+}
+
+.oawidth50 {
+    width: 50%;
+}
+
+.oawidth51 {
+    width: 51%;
+}
+
+.oawidth52 {
+    width: 52%;
+}
+.oawidth53 {
+    width: 53%;
+}
+.oawidth55 {
+    width: 55%;
+}
+.oawidth56 {
+    width: 56%;
+}
+.oawidth57 {
+    width: 57%;
+}
+.oawidth60 {
+    width: 60%;
+}
+.oawidth62 {
+    width: 62%;
+}
+
+.oawidth63 {
+    width: 63%;
+}
+.oawidth64 {
+    width: 64%;
+}
+
+.oawidth65 {
+    width: 65%;
+}
+.oawidth67 {
+    width: 67%;
+}
+.oawidth68 {
+    width: 68%;
+}
+.oawidth70 {
+    width: 70%;
+}
+.oawidth73 {
+    width: 73%;
+}
+.oawidth75 {
+    width: 75%;
+}
+
+.oawidth77 {
+    width: 77%;
+}
+.oawidth78 {
+    width: 78%;
+}
+
+.oawidth80 {
+    width: 80%;
+}
+.oawidth82 {
+    width: 82%;
+}
+.oawidth83{
+    width: 83%;
+}
+.oawidth85 {
+    width: 85%;
+}
+.oawidth88 {
+    width: 88%;
+}
+.oawidth90 {
+    width: 90%;
+}
+
+.oawidth93 {
+    width: 93%;
+}
+.oawidth94 {
+    width: 94%;
+}
+.oawidth95 {
+    width: 95%;
+}
+.oawidth96 {
+    width: 96%;
+}
+.oawidth98 {
+    width: 98%;
+}
+.oawidth99 {
+    width: 99%;
+}
+.oawidth100 {
+    width: 100%;
+}
+.oawidth1 {
+    width: 1%;
+    vertical-align: top;
+}
+
+.oawidth100top {
+    width: 100%;
+    vertical-align: top;
+}
+
+.oawidth0top {
+    width: 0%;
+    vertical-align: top;
+}
+.oawidth5top {
+    width: 5%;
+    vertical-align: top;
+}
+.oawidth80top {
+    width: 80%;
+    vertical-align: top;
+}
+.oawidth60top {
+    width: 60%;
+    vertical-align: top;
+}
+.oawidth35top {
+    width: 35%;
+    vertical-align: top;
+}
+.oawidth40top {
+    width: 40%;
+    vertical-align: top;
+}
+.oawidth20top {
+    width: 20%;
+    vertical-align: top;
+}
+.oawidth25top {
+    width: 25%;
+    vertical-align: top;
+}
+
+.oawidth65top {
+    width: 65%;
+    vertical-align: top;
+}
+
+.oawidth35top {
+    width: 35%;
+    vertical-align: top;
+}
+
+.oawidth75top {
+    width: 75%;
+    vertical-align: top;
+}
+.oawidth10bottomright{
+    width: 10%;
+    vertical-align: bottom;
+    margin-right: 0px;
+}
+.oawidth40bottom{
+    width: 40%;
+    vertical-align: bottom;
+}
+.oawidth70bottom{
+    width: 70%;
+    vertical-align: bottom;
+}
+.oawidth90bottom{
+    width: 90%;
+    vertical-align: bottom;
+}
+.oawidth100bottom{
+    width: 100%;
+    vertical-align: bottom;
+}
+.oawidth50left {
+    width: 50%;
+    text-align: left;
+}
+.oawidth50right {
+    width: 50%;
+    text-align: right;
+}
+.oawidth30left {
+    width: 30%;
+    text-align: left;
+}
+.oawidth70right {
+    width: 70%;
+    text-align: right;
+}
+.oawidth80right {
+    width: 80%;
+    text-align: right;
+}
+.oawidth80left {
+    width: 80%;
+    text-align: left;
+}
+.oawidth20right {
+    width: 20%;
+    text-align: right;
+}
+.oawidth100left {
+    width: 100%;
+    text-align: left;
+}
+.oaalignright {
+    text-align: right;
+}
+.oaalignleft {
+    text-align: left;
+}
+.oawidth100center {
+    width: 100%;
+    text-align: center;
+}
+
+.whitepanel {
+    background-color: white;
+}
+.whitepanelt {
+    background: url(/omniapp/javax.faces.resource/wp_top.gif.jsf?ln=images/whitepanel) 0 0 repeat-x;
+}
+.whitepanelb {
+    background: url(/omniapp/javax.faces.resource/wp_bottom.gif.jsf?ln=images/whitepanel) 0 100% repeat-x
+}
+.whitepanell {
+    background: url(/omniapp/javax.faces.resource/wp_left.gif.jsf?ln=images/whitepanel) 0 0 repeat-y
+}
+.whitepanelr {
+    background: url(/omniapp/javax.faces.resource/wp_right.gif.jsf?ln=images/whitepanel) 100% 0 repeat-y
+}
+.whitepanelbl {
+    background: url(/omniapp/javax.faces.resource/wp_left_bottom.gif.jsf?ln=images/whitepanel) 0 100% no-repeat
+}
+.whitepanelbr {
+    background: url(/omniapp/javax.faces.resource/wp_right_bottom.gif.jsf?ln=images/whitepanel) 100% 100% no-repeat
+}
+.whitepaneltl {
+    background: url(/omniapp/javax.faces.resource/wp_left_top.gif.jsf?ln=images/whitepanel) 0 0 no-repeat
+}
+.whitepaneltr
+{background: url(/omniapp/javax.faces.resource/wp_right_top.gif.jsf?ln=images/whitepanel) 100% 0 no-repeat;
+    padding:10px !important;
+}
+.whitepanelcontent{
+    background-color: white; width: 100%; height: 100%;padding: 0;
+}
+
+
+.lgp {
+    background-color: white;
+}
+.lgpt {
+    background: url(/omniapp/javax.faces.resource/lgp_t.png.jsf?ln=images/lgp) 0 0 repeat-x;
+}
+.lgpb {
+    background: url(/omniapp/javax.faces.resource/lgp_b.png.jsf?ln=images/lgp) 0 100% repeat-x
+}
+.lgpl {
+    background: url(/omniapp/javax.faces.resource/lgp_l.png.jsf?ln=images/lgp) 0 0 repeat-y
+}
+.lgpr {
+    background: url(/omniapp/javax.faces.resource/lgp_r.png.jsf?ln=images/lgp) 100% 0 repeat-y
+}
+.lgpbl {
+    background: url(/omniapp/javax.faces.resource/lgp_lb.png.jsf?ln=images/lgp) 0 100% no-repeat
+}
+.lgpbr {
+    background: url(/omniapp/javax.faces.resource/lgp_rb.png.jsf?ln=images/lgp) 100% 100% no-repeat
+}
+.lgptl {
+    background: url(/omniapp/javax.faces.resource/lgp_lt.png.jsf?ln=images/lgp) 0 0 no-repeat
+}
+.lgptr
+{background: url(/omniapp/javax.faces.resource/lgp_rt.png.jsf?ln=images/lgp) 100% 0 no-repeat; padding:10px
+}
+.lgpcontent{
+    background-color: white; width: 100%; height: 100%;padding: 0;
+}
+.oalabelblack{
+    FONT :8pt Arial ; color: black;
+}
+.oalabelstyleblackbold{    
+    font-weight: bold;
+}
+
+
+.oaerrorstylered{
+    font-size:12px;
+    font-family:arial,sans-serif;
+    color: #8B0000;
+}
+.oainfostyle{
+    font-size:small;
+    font-family:arial,sans-serif;
+    color: #003EA8;
+}
+.oalabelstyleblue{
+    font-size:13px;
+    font-family:arial,sans-serif;
+    color: #003EA8;
+}
+.oalabelstyleblack{
+    font-size:small;
+    font-family:arial,sans-serif;
+    color: black;
+}
+.oatitlelabelstyle{
+    color: #6B85B3;
+    font-size: 1.2em;
+    font-family:arial,sans-serif;
+}
+.oainputtextstyle{
+    font-family:arial,sans-serif;
+    font-size: small;
+    width: 100%;
+    font-weight: normal;
+    color: black;    
+    border: 1px solid #9999CC;
+
+}
+
+.oainputcombostyle{
+    font-family:arial,sans-serif;
+    font-size: 12px;
+    width: 100%;
+    font-weight: normal;
+    color: black;    
+    border: 1px solid #9999CC;
+}
+.oainputcombostyle1{
+    width: 100%;
+    font-weight: normal;    
+    border: 1px solid #9999CC;
+}
+
+.oarowtext
+{
+    text-align: left;
+    color: gray;
+}
+
+
+.DefaultStyle
+{
+    text-align: right;
+    font-size:13px;
+    font-family:arial;
+    color: gray;
+}
+.oaheaderclass1
+{
+    text-align: left;
+    height: 24px;
+    font-weight: normal;
+    color:gray;
+    font-family:sans-serif;
+    font-size: 13px;
+    background-image: url('/omniapp/javax.faces.resource/tab1.png.jsf?ln=images');
+}
+
+.oatableheadertext{
+    font-size:  20px ;
+    white-space: nowrap;
+    text-align: left;
+    height: 23px;
+     
+}
+
+.oaheader
+{
+    text-align: left;
+    color:gray;
+    font-family:sans-serif;
+    font-size: 13px
+}
+.oatopalign
+{
+    position:relative;
+    top: 40px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.oalinkstyle
+{
+    font-size:13px;
+    font-family:arial,sans-serif;
+    color: #003EA8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.oalinkstylew
+{
+    
+    //color: black;
+    
+
+}
+.oarowstylegray
+{
+    background-color: 	#EEEEEE;
+    cursor: pointer;
+}
+.oaborder2gray
+{
+    border: 2px solid #EEEEEE;
+}
+.oaborder2graywotop
+{
+    border-bottom: 2px solid #EEEEEE;
+    border-left: 2px solid #EEEEEE;
+    border-right: 2px solid #EEEEEE;
+}
+
+.closeButton{
+    height: 14px;
+    background: url(/omniapp/javax.faces.resource/close.png.jsf?ln=images) 0 0 no-repeat;
+}
+
+.tabDiv{
+    text-align: center;
+    padding-top: 3px;
+    height: 20px;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+  //  background: url(/omniapp/javax.faces.resource/tab.png.jsf?ln=images) 0 0 repeat-x;
+}
+.oaMenuBarDiv{
+    padding-top: 3px;
+    height: 23px;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    background: url(/omniapp/javax.faces.resource/tab1.png.jsf?ln=images) 0 0 repeat-x;
+}
+.oatext{
+    text-align: center;
+    padding-top: 3px;
+    height: 23px;
+    font-size: 13px;
+    }
+.oatextleft{
+    text-align: left;
+}
+.oatextpadding2{
+    padding-left : 2px ;
+    padding-right :2px;
+}
+.oatextleftpadding8{
+    text-align: left;
+    padding-left: 8px;
+}
+.oatextcenter{
+    text-align: center;
+}
+.oatextpaddingtop2{
+    padding-top:2px !important;
+}
+.oatextpaddingtop3{
+    padding-top:3px !important;
+}
+
+.oatextpaddingbottom2{
+    padding-bottom:2px !important;
+}
+.oatextpaddingright3{
+    padding-right:3px !important;
+}
+.oatextpaddingright6{
+    padding-right:6px !important;
+}
+.oatextpaddingtop4{
+    padding-top: 4px;
+}
+.oatextpaddingtop5{
+    padding-top: 5px;
+}
+.oatextpaddingtop6{
+    padding-top: 6px;
+}
+.oatextpaddingtop10{
+     padding-top: 10px;
+}
+.oatextpaddingbottom10{
+    padding-bottom:10px !important;
+}
+.oatextpaddingleft2{
+    padding-left: 2px;
+}
+.oatextpaddingleft4{
+    padding-left: 4px;
+}
+.oatextpaddingleft5{
+    padding-left: 5px;
+}
+.oatextpaddingleft6{
+    padding-left: 6px;
+}
+.oatextpaddingleft7{
+    padding-left: 7px;
+}
+.oatextpaddingleft8{
+    padding-left: 8px;
+}
+.oatextpaddingleft10{
+    padding-left: 10px;
+}
+.oatextpaddingleft16{
+    padding-left: 16px;
+}
+.oatextpaddingbottom6{
+    padding-bottom: 6px;
+}
+.oatextpaddingright8{
+    padding-right:8px !important;
+}
+.oaMenuBarSeperatorDiv{
+    text-align: center;
+    padding-top: 3px;
+    height: 23px;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    background: url(/omniapp/javax.faces.resource/separator1.png.jsf?ln=images) 0 0 repeat-x;
+}
+.oashowpointer{
+    cursor: pointer;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+.menuItemDefaultStyle{
+    color: black;
+    cursor: pointer;
+}
+.menuItemSelectStyle{
+    color: gray;
+}
+.headerTitle{
+    padding-left: 3px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.separator{
+    width: 3px;
+    background: url(/omniapp/javax.faces.resource/separator.png.jsf?ln=images) 0 0 no-repeat;
+
+}
+.oarowseparator{
+    border-bottom: solid 1px gray;
+}
+.oatextgray{
+    color: gray;
+}
+.oaborder1gray
+{
+    border-bottom: solid 1px #EEEEEE;
+}
+.oaborder1lightblue
+{
+    border-bottom: solid 1px #c3d9ff;
+}
+.padding2{
+    padding: 2px 2px;
+}
+
+
+.oainputtexttablestyle{
+    width: 100px;
+    font-weight: normal;
+    height: 14px;
+    border: 1px solid #9999CC;
+}
+.oasuccessstylegreen{
+    font-size:12px;
+    font-family:arial,sans-serif;
+    color: green;
+}
+.oapaddingtopbottom3{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.oanavbutton{
+    float: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+div.scrollerContainer {
+    height: 106px;
+    width: 100%;
+    margin: 0px;
+}
+div.scrollerContainer thead tr	{
+    position:relative;
+    top: expression(offsetParent.scrollTop); /*IE5+ only*/
+    /* fixes the header being over too far in IE, doesn't seem to affect FF */
+    left: -1px;
+}
+
+.oawidth0border
+{
+    width: 0%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth2border
+{
+    width: 2%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth4border
+{
+    width: 4%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth5border
+{
+    width: 5%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth10border
+{
+    width: 10%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth15border
+{
+    width: 15%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth18border
+{
+    width: 18%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth20border
+{
+    width: 20%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth22border
+{
+    width: 22%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth25border
+{
+    width: 25%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth30border
+{
+    width: 30%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth32border
+{
+    width: 32%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth35border
+{
+    width: 35%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth40border
+{
+    width: 40%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth45border
+{
+    width: 45%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth50border
+{
+    width: 50%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth55border
+{
+    width: 55%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth56border
+{
+    width: 56%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth60border
+{
+    width: 60%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth64border
+{
+    width: 64%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth65border
+{
+    width: 65%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth70border
+{
+    width: 70%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth75border
+{
+    width: 75%;
+    border-bottom: solid 1px #B2B2B2;
+}
+
+.oawidth80border
+{
+    width: 80%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth85border
+{
+    width: 85%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth90border
+{
+    width: 90%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth95border
+{
+    width: 95%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oawidth100border
+{
+    width: 100%;
+    border-bottom: solid 1px #B2B2B2;
+}
+.oatablegray
+{
+    width: 100%;
+    background-color: #EEEEEE;
+}
+.oatablegray1
+{
+    width: 100%;
+    background-color: #ECEEF0 ;
+ }
+
+.oatableheight225
+{
+    height: 225px;
+}
+
+div.scrollTableContainer {
+    height: 170px;
+    overflow: auto;
+    width: 100%;
+    margin: 0px 0 0 0;
+    position: relative;
+    align:center;
+}
+
+
+div.scrollTableContainer thead tr	{
+    position:relative;
+    top: expression(offsetParent.scrollTop); /*IE5+ only*/
+    /* fixes the header being over too far in IE, doesn't seem to affect FF */
+    left: -1px;
+}
+
+#instanceMgmtDiv
+{
+     height: 170px;
+    overflow: auto;
+    width: 100%;
+    margin: 0px 0 0 0;
+    position: relative;
+    align:center;
+}
+#componentMgmtDiv
+{
+     height: 170px;
+    overflow: auto;
+    width: 100%;
+    margin: 0px 0 0 0;
+    position: relative;
+    align:center;
+}
+.oawidth100right
+{
+    width: 100%;
+    text-align: right;
+}
+.oawidth100center
+{
+    width: 100%;
+    text-align: center;
+}
+oainputtextstyle1{
+    font-family:arial,sans-serif;
+    font-size: small;
+    font-weight: normal;
+    color: black;    
+    border: 1px solid #9999CC;
+    width: 100%;
+
+}
+.oasuccessstylegreen
+{
+    font-size:12px;
+    font-family:arial,sans-serif;
+    color:#339933;
+}
+.arrow-right
+{
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #6699FF;
+
+}
+
+.paddingright6{
+    padding-right: 6px;
+}
+.inputtextareastyle{
+    width: 100%;
+    font-weight: normal;
+    height: 60px;
+    border: 1px solid #9999CC;
+}
+.paddingleft3{
+    padding-left: 3px;
+}
+.tabDiv1{
+    text-align: left;
+    padding-top: 3px;
+    height: 20px;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+   // background: url(/omniapp/javax.faces.resource/tab1.png.jsf?ln=images) 0 0 repeat-x;
+}
+.oanolinelinkstyle{
+    font-size:13px;
+    font-family:arial,sans-serif;
+    color: #003EA8;
+}
+.resizeClass{
+    cursor :nw-resize;
+    background: url(/omniapp/javax.faces.resource/resize.jpg.jsf?ln=images) 0 0 no-repeat;
+    height: 12px;
+    width: 12px;
+}
+
+ .ui-effects-transfer{
+    border: 2px dotted #003EA8;
+ }
+ .ui-widget-content{
+  border: 1px solid #dddddd;
+  background: #eeeeee 50% top repeat-x; color: #333333;
+ }
+ .curved {
+  background:transparent;
+  width:100%;
+  }
+ .curved .b4 {
+  display:block;
+  overflow:hidden;
+  height:1px;
+  font-size:1px;
+  }
+  .curved .b4 {
+  background:#9ACD32;
+  border-left:1px solid #9ACD32;
+  border-right:1px solid #9ACD32;
+  }
+.curved .b4 {
+  margin:0 1px;
+  height:2px;
+  }
+.curved .boxcontent {
+  display:block;
+  background :#9ACD32;
+  border:0 solid #9ACD32;
+  border-width:0 1px;
+  }
+.curved .boxcontent1 {
+  display:block;
+  background:#C9E2FC;
+  border:0 solid #C9E2FC;
+  border-width:0 1px;
+  }
+  .curved .b5 {
+  display:block;
+  overflow:hidden;
+  height:1px;
+  font-size:1px;
+  }
+  .curved .b5 {
+  background:#C9E2FC;
+  border-left:1px solid #C9E2FC;
+  border-right:1px solid #C9E2FC;
+  }
+.curved .b5 {
+  margin:0 1px;
+  height:2px;
+  }
+  .centrealign {
+      text-align: center;
+  }
+  .dd-new-draw {
+        position: absolute;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+        border: 1px dotted black;
+    }
+  .oawidth170pixelforpicklist{
+    COLOR: black; FONT: 8pt Arial ;
+    width:170px;
+    }
+
+.column { width: 170px; float: left; padding-bottom: 50px; }
+	.portlet { margin: 0 1em 1em 0; }
+	.portlet-header { margin: 0.3em; padding-bottom: 4px; padding-left: 0.2em; }
+	.portlet-header .ui-icon { float: right; }
+	.portlet-content { padding: 0.4em; }
+	.ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 23px !important; }
+	.ui-sortable-placeholder * { visibility: hidden; }
+
+#columns TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 170px; PADDING-RIGHT: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.portlet {
+	BACKGROUND:white ;CURSOR: move;
+}
+.portlet_topper {
+	 height: 23px;background: url(/omniapp/javax.faces.resource/bluebg.png.jsf?ln=images/bluepanel) repeat-x scroll 0 0;
+}
+A {
+    TEXT-DECORATION: none;
+}
+
+.portlet_topper A {
+    padding-left: 3px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.labelgreenbold {
+font: bold 11pt Arial ;
+color: #008000;
+}
+.labelGrey{
+font: 12pt Arial ;
+color: #877090;
+}
+.oabanner{
+    border-bottom: #b2c1d9 1px solid;
+    border-top: #b2c1d9 1px solid;
+    background-color: #c6d7f2;
+    min-height: 120px;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+.oalogo{
+    position: relative;
+    padding-top: 6px;
+}
+.oabannertext{
+    color: #003EA8;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: arial, sans-serif;    
+}
+.oaloginboxouter{
+    background-color: #fff;    
+    border: 1px solid #c3d9ff;
+}
+.oaloginbox{
+    background-color: #e8eefa;
+}
+#popupMask {
+	position: absolute;
+	z-index: 200;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: .4;
+	filter: alpha(opacity=40);
+	/* this hack is so it works in IE
+	 * I find setting the color in the css gives me more flexibility
+	 * than the PNG solution.
+	 */
+	
+	background-color: #d8dce0;
+	/* this hack is for opera support
+	 * you can uncomment the background-image if you don't care about opera.
+	 * this gives you the flexibility to use any bg color that you want, instead of the png
+	 */
+	
+}
+
+.oalinkstylelbold
+{
+    font-size:13px;
+    font-family:arial,sans-serif;
+    font-weight: bold;
+    color: #003EA8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.oasuccessmsgDiv{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    border: 2px solid #008B00;
+    background-color: #f0fff0;    
+    padding-top: 3px;    
+    color: #008B00;    
+}
+
+.geninformationmsgdiv{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    border: 2px solid #00008B;
+    background-color: #f0f0ff;    
+    padding-top: 3px;    
+    color: #00008B; 
+}
+
+.oafailuremsgDiv{
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    border: 2px solid #8B0000;
+    background-color: #fff0f0;
+    padding-top: 3px;    
+    color: #8B0000;
+}
+
+.oamessagetext{    
+    font-size: 13px;
+    font-weight: normal;
+    font-family: arial, sans-serif;    
+    color: #008B00;
+}
+.ErrorMsg{
+    border:#8B0000 1px solid;
+    background-color: #fff0f0;
+    margin: 0px auto;
+    width:99%;
+    padding: 1px;
+    font: bold 12px arial;
+    color: #8B0000;
+}
+.SuccessMsg{
+    border:#008B00 1px solid;
+    background-color: #f0fff0;
+    margin: 0px auto;
+    width:99%;
+    padding: 1px;
+    font: bold 12px arial;
+    color: #008B00;
+    font-size: 12px;
+}
+.oacombostyle {
+    BORDER-BOTTOM: transparent 0px dashed;
+    POSITION: relative;
+    BORDER-LEFT: transparent 3px dashed;
+    LINE-HEIGHT: 0;
+    WIDTH: 0px;
+    DISPLAY: inline-block;
+    HEIGHT: 0px;
+    FONT-SIZE: 0px;
+    BORDER-TOP: #c0c0c0 3px solid;
+    TOP: -1px;
+    BORDER-RIGHT: transparent 3px dashed;
+    PADDING-TOP: 4px; LEFT: 4px
+}
+
+.oaArrowDown {    
+    POSITION: relative;
+    BORDER-TOP: #6699CC 5px solid;
+    BORDER-BOTTOM: transparent 0px dashed;
+    BORDER-LEFT: transparent 5px dashed;
+    BORDER-RIGHT: transparent 5px dashed;
+    TOP: 3px;
+    LEFT: 0px;
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    LINE-HEIGHT: 0;
+    DISPLAY: inline-block;    
+    FONT-SIZE: 0px;    
+    PADDING-TOP: 4px;    
+}
+.oaArrowUp {    
+    POSITION: relative;
+    BORDER-BOTTOM: #6699CC 5px solid;
+    BORDER-TOP: transparent 0px dashed;
+    BORDER-LEFT: transparent 5px dashed;
+    BORDER-RIGHT: transparent 5px dashed;
+    BOTTOM: 3px;
+    LEFT: 0px;
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    LINE-HEIGHT: 0;
+    DISPLAY: inline-block;    
+    FONT-SIZE: 0px;    
+    PADDING-BOTTOM: 4px;    
+}
+.oaArrowLeft {
+    POSITION: relative;
+    BORDER-TOP: transparent 5px dashed;
+    BORDER-BOTTOM: transparent 5px dashed;
+    BORDER-LEFT: transparent 0px dashed;
+    BORDER-RIGHT: #6699CC 5px solid;
+    TOP: 0px;
+    LEFT: 0px;
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    LINE-HEIGHT: 0;
+    DISPLAY: inline-block;
+    FONT-SIZE: 0px;
+    PADDING-RIGHT: 4px;
+}
+.oaArrowRight {
+    POSITION: relative;
+    BORDER-TOP: transparent 5px dashed;
+    BORDER-BOTTOM: transparent 5px dashed;
+    BORDER-LEFT: #6699CC 5px solid;
+    BORDER-RIGHT: transparent 0px dashed;
+    TOP: 0px;
+    LEFT: 0px;
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    LINE-HEIGHT: 0;
+    DISPLAY: inline-block;
+    FONT-SIZE: 0px;
+    PADDING-LEFT: 4px;
+}
+.oapadding5{
+    padding: 5px;
+}
+.oapadding3{
+    padding: 3px;
+}
+.oapaddingtop{
+    padding-top: 0px;
+}
+.oacursorpointer{
+    cursor: pointer;
+}
+.oapadding0{
+    padding: 0px;
+}
+.oaFontWeightBold{
+    font-weight: bold;
+}
+.oadisplaynone{
+    display: none;
+}
+
+.oASelected{
+    color : #B50000;
+    background-color: #EEF3E2;
+    cursor: pointer;
+}
+.cursorMove{
+  cursor: move;
+}
+.cursorSimple{
+    cursor: default;
+}
+.oafooter{    
+    font: 8pt Arial;
+    color: black;
+}
+.oapadding10{
+    padding: 10px;
+}
+.oalinkstylelboldwithoutpointer{
+    font-size:13px;
+    font-family:arial,sans-serif;
+    font-weight: bold;
+    color: #003EA8;
+    text-decoration: underline;
+}
+
+.informationmsgdiv{
+    border:#00008B 1px solid;
+    background-color: #f0f0ff;
+    margin: 0px auto;
+    width:99%;
+    font: bold 12px arial;
+    color: #00008B;
+}
+
+.informatinostyleblue{
+    font-size:12px;
+    font-family:arial,sans-serif;
+    color: #0066FF;
+}
+.sliderDiv{
+	width:420px;
+	height: 16px;
+	position: relative;
+	border:#eeeeee 1px solid;
+        border-top:#6699CC 2px solid;
+        border-bottom: #ff8080 2px solid;
+	
+}
+.rangeIndicator{
+	overflow: hidden;
+	width:400px;
+	height: 2px;
+	left: 9px;
+	top: 7px;
+	position: absolute;
+	border:#a5b9cb 0px solid;	
+	background-color:#003333;
+        opacity: .1;
+	filter: alpha(opacity=10);
+}
+.horizontal_slider_1{
+	position: absolute;	
+	left: 33px;
+	top: 0px;
+        border-top-width:8px;
+        padding-top: 2px;	
+}
+
+.horizontal_slider_2{
+	position: absolute;	
+	left: 66px;
+	top: 0px;
+        border-top-width:8px;
+        padding-top: 2px;	
+}
+.cursor_pointer{
+	cursor:pointer;
+}
+.sliderDivMarker{
+	position: absolute;
+	width: 28px;
+	text-align:right;
+	color:#527498;
+	border:#bbbbbb 0px solid;	
+	font-size:11px;
+	font-family:arial;
+}
+.oamarginleft5{
+    margin-left: 5px;
+}
+textarea{ resize:none }
+
+
+.arrowlefttheme {
+    POSITION: relative;
+    BORDER-TOP: transparent 6px dashed;
+    BORDER-BOTTOM: transparent 6px dashed;
+    BORDER-LEFT: transparent 0px dashed;
+    BORDER-RIGHT: black 6px solid;
+    TOP: 0px;
+    LEFT: 0px;
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    LINE-HEIGHT: 0;
+    DISPLAY: inline-block;
+    FONT-SIZE: 0px;
+    PADDING-RIGHT: 4px;
+}
+
+.arrowrighttheme {
+    POSITION: relative;
+    BORDER-TOP: transparent 6px dashed;
+    BORDER-BOTTOM: transparent 6px dashed;
+    BORDER-LEFT: black 6px solid;
+    BORDER-RIGHT: transparent 0px dashed;
+    TOP: 0px;
+    LEFT: 0px;
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    LINE-HEIGHT: 0;
+    DISPLAY: inline-block;
+    FONT-SIZE: 0px;
+    PADDING-LEFT: 4px;
+}
+
+.arrowleftdistheme {
+    POSITION: relative;
+    BORDER-TOP: transparent 6px dashed;
+    BORDER-BOTTOM: transparent 6px dashed;
+    BORDER-LEFT: transparent 0px dashed;
+    BORDER-RIGHT: #C0C0C0 6px solid;
+    TOP: 0px;
+    LEFT: 0px;
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    LINE-HEIGHT: 0;
+    DISPLAY: inline-block;
+    FONT-SIZE: 0px;
+    PADDING-RIGHT: 4px;
+}
+
+.arrowrightdistheme {
+    POSITION: relative;
+    BORDER-TOP: transparent 6px dashed;
+    BORDER-BOTTOM: transparent 6px dashed;
+    BORDER-LEFT: #C0C0C0 6px solid;
+    BORDER-RIGHT: transparent 0px dashed;
+    TOP: 0px;
+    LEFT: 0px;
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    LINE-HEIGHT: 0;
+    DISPLAY: inline-block;
+    FONT-SIZE: 0px;
+    PADDING-LEFT: 4px;
+}
+.oadisabletext{
+    color: #888888;
+}
+.aligntext{
+    text-align: justify;
+}
+
+
+.UIBeeper{
+width:230px;
+top: 10px;
+position:absolute;
+z-index:99;
+display:none;
+}
+.UIBeeper .UIBeeper_Full{
+background-color:#A9ADB0;
+border:1px solid #697074;
+/*border-radius*/
+-webkit-border-radius:3px;
+   -moz-border-radius:3px;
+        border-radius:3px;
+margin:0;
+padding:3px;
+}
+.UIBeeper .UIBeeper_Full:hover{
+/* change background color on mouseover */
+background-color:#CAD1DE;
+}
+.UIBeeper .UIBeep_Bottom{
+border-bottom:none;
+}
+.UIBeeper .UIBeep_Selected{
+background:#CDD1D4;
+}
+.UIBeeper .UIBeep_Top{
+padding-top:0;
+}
+.UIBeeper .UIBeep_Bottom{
+padding-bottom:0;
+}
+.UIBeep{
+background:#E1E6EE;
+border-bottom:1px solid #BFCADE;
+overflow:hidden;
+padding:3px 0;
+clear:right;
+}
+a, a:hover{
+cursor:pointer;
+color:#3B5998;
+text-decoration:none;
+}
+.UIBeep .UIBeep_NonIntentional .UIBeep_Icon{
+float:left;
+width:20px;
+height:20px;
+text-align:center;
+margin:5px 5px;
+}
+.UIBeep_Selected .UIBeep_Icon{
+margin-right:2px;
+}
+.image2{
+/* icon within the beeper */
+background-image:url(/omniapp/javax.faces.resource/like.png.jsf?ln=images);
+background-repeat:no-repeat;
+display:inline-block;
+height:16px;
+width:16px;
+}
+.UIBeeper .UIBeep .UIBeep_NonIntentional .beeper_x{
+/* close button */
+float:right;
+height:16px;
+width:16px;
+margin-top:6px;
+cursor: pointer;
+background: url(/omniapp/javax.faces.resource/close.gif.jsf?ln=images) no-repeat;
+visibility:hidden;
+}
+.UIBeep .beeper_x:hover{
+/* close button on mouseover */
+cursor: pointer;
+background: url(/omniapp/javax.faces.resource/closehover.gif.jsf?ln=images) no-repeat !important;
+}
+.UIBeep_Selected .beeper_x{
+display:block !important;
+visibility:visible !important;
+margin-left:4px;
+}
+.UIBeep .UIBeep_NonIntentional .UIBeep_Title{
+margin:0 10px 0 10px;
+}
+.UIBeep .UIBeep_Title{
+padding:5px 0;
+}
+.min_horizontal_slider_1{
+	position: absolute;	
+	left: 0px;
+	top: 7px;	
+        border-bottom-width:8px;
+        padding-bottom: 1px;        
+        border-bottom-color: #ff8080
+}
+
+.min_horizontal_slider_2{
+	position: absolute;	
+	left: 34px;
+	top: 7px;	
+        border-bottom-width:8px;
+        padding-bottom: 1px;        
+        border-bottom-color: #ff8080
+}
+.min_horizontal_slider_3{
+	position: absolute;	
+	left: 67px;
+	top: 7px;
+        border-bottom-width:8px;
+        padding-bottom: 1px;        
+        border-bottom-color: #ff8080
+}
+
+.minSliderDivMarker{
+	position: absolute;
+	width: 28px;
+	text-align:right;
+	color:#ff8080;
+	border:#bbbbbb 0px solid;	
+	font-size:11px;
+	font-family:arial;        
+}
+.testheightwidth{
+    min-height: 400px;
+    min-width: 500px;
+}
+#tableWrap {
+    padding:0px;
+    margin:0px;
+    width:100%;    
+}
+#tableWrap table{
+    table-layout:fixed;
+    width:99%;    
+    margin:0px;
+    padding:0px;
+    border-collapse:collapse;
+    border-spacing:0px; /* cellspacing */  
+}
+#tableWrap table td{
+    padding: 2;
+    height:100%;
+    border:1px solid #A0A0A0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#tableWrap table td div.cellContainer{     
+    padding:0px;
+    margin:0px;
+    height:100%;
+    outline: none;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.select input { 
+    -webkit-touch-callout: text;
+    -webkit-user-select: text; 
+    -khtml-user-select: text; 
+    -moz-user-select: text; 
+    -o-user-select: text; 
+    user-select: text; 
+}
+.s {
+    background: #d0eaf9 !important;    
+}
+.spareCell {
+    border: 1px solid #A0A0A0 !important;
+    background-color: #E8E8E8;
+}
+.n {
+    border: 0px solid blue !important;	
+}
+.filledCellCSS{
+    background-color: #F8F8F8;
+}   
+.dragCellSource{
+    background-color: #C2F0C2;
+    font-weight: normal;
+    cursor: move;
+}   
+.dragCellTarget{
+    background-color: #FFCCCC;
+    font-weight: bold;
+    cursor: move;
+}   
+.splitCellCSS{
+    background-color: #d0eaf9;
+    font-weight: bold;
+}   
+div.cellContainer div.toolbox{			
+    display:block;
+    text-align:right;	
+    width:100%;
+    padding:0px;
+    margin:0px;	
+    height:16px !important;
+}
+div.cellContainer div.toolbox div.ib {
+    display:inline-block;
+    padding:0px;
+    margin:0px;					
+}
+div.cellContainer div.toolbox div.close {  
+    cursor: pointer;
+    width:20px !important;
+    height:20px !important;
+    background: url(/omniapp/javax.faces.resource/cancel_round.png.jsf?ln=images) no-repeat;
+}
+div.cellContainer div.toolbox div.move {
+    cursor: move;
+    margin-right: 5px;
+    width:15px !important;
+    height:15px !important;
+    background: url(/omniapp/javax.faces.resource/move.png.jsf?ln=images) no-repeat;
+}
+div.cellContainer div.content {
+    width:100%;
+    text-align:left;
+    padding-left: 5px;
+    display:block;
+    height:0%;
+}
+div.cellContainer div.contract{			
+    display:inline-block;
+    padding:0px;
+    /*height:32px;
+    margin:2px 5px 2px 5px;	
+    width:24px;    
+    background: url(/omniapp/javax.faces.resource/contract.png.jsf?ln=images) no-repeat;
+    cursor: pointer;*/
+}
+div.cellContainer div.spinner{			
+    display:inline;    
+    padding:0px;    
+    margin:0px;
+    width:40px;
+    height:32px;
+    line-height: 32px;
+    vertical-align:top;
+}
+div.cellContainer div.spinner input.rowHeightInput{			
+    display:inline;
+    padding:0px;        
+    margin:2px;
+    margin-left: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width:30px;
+    height:16px;
+    vertical-align:top;
+}
+div.cellContainer div.expand{			
+    display:inline-block;
+    padding:0px;
+    /*margin:2px 5px 2px 5px;	
+    width:24px;
+    height:32px;
+    background: url(/omniapp/javax.faces.resource/expand.png.jsf?ln=images) no-repeat;
+    cursor: pointer;*/
+}
+
+#compContainerDiv {
+    padding:0px;
+    margin:0px;
+    width:100%;    
+}
+#compContainerDiv > table{
+    table-layout:fixed;    
+    margin:0px;
+    padding:0px;
+    border-collapse:separate; 
+}
+#compContainerDiv > table td.m{
+    padding: 0px;
+    height:100%;
+    border:0px solid blue;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#compContainerDiv > table td.m div.cellContainer{
+    padding:0px;
+    margin:0px;
+    height:100%;
+    width:100%;
+    outline: none;  
+    border: 1px solid #d7d7d7;
+}
+.m{
+    border: 0px solid red !important;
+    vertical-align: top;
+}
+.hiddenCell {
+    border: 0px solid blue !important;	
+}
+.columnResizer{
+    position: absolute;
+    cursor: col-resize;    
+}
+.rowResizer{
+    position: absolute;
+    z-index: 99;
+    cursor: row-resize;    
+}
+
+.phContainer{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+div.btn-round {
+  background-color: #57A429;
+  border-radius: 999em;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  font-size: 25px;
+  position: absolute;
+  bottom:0px;
+  right:0px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-align:center;
+  line-height:40px;
+  vertical-align:middle;
+  color: #FFF;
+}
+div.plus:before{
+    position: relative;    
+    content: "+";
+}
+div.cross:before{    
+    position: relative;
+    top: -1px;
+    font-size: 18px;
+    content: "x";
+}
+
+.menuContainer{
+    position: absolute;
+    width:200px;
+}
+.menuContainer > div{
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.239216) 0px 1px 4px; 
+    border-radius: 2px; 	
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    outline: none !important; 
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.menuContainer > div div.normal{
+    -webkit-user-select:none;  
+    cursor:pointer;
+    line-height:30px;
+    padding-left:16px;
+    padding-right:16px;
+    color:rgba(0, 0, 0, 0.87);
+}
+.menuContainer > div div.selected{
+    background-color:rgba(0, 0, 0, .035);
+}
+.menuContainer > div div.disable{
+    color:rgba(0, 0, 0, 0.3);
+}
+.menuContainer > div div.normal label{
+    cursor:pointer;
+}
+.menuContainer > div div.normal > span{
+    font-size: 14px;
+}
+.menuContainer > div label.emptyListCSS{
+    margin-left: 16px;
+    font: bold 12px arial,sans-serif;
+    color: blue;
+}
+
+.loginShadow{
+    box-sizing: border-box; 
+    background-color: rgb(255, 255, 255);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+    -webkit-box-shadow: 3px 3px 20px -4px rgba(0,0,0,0.140000);  
+    -moz-box-shadow: 3px 3px 20px -4px rgba(0,0,0,0.140000);  
+    box-shadow: 3px 3px 20px -4px rgba(0,0,0,0.140000); 
+    border-radius: 5px; 
+}
+.overflowHidden{
+    overflow: hidden;
+}
+.cursorCell{
+    cursor: cell;
+}
+.iframeShadow{    
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+    -webkit-box-shadow: 1px 1px 18px -1px rgba(0,0,0,0.300000); 
+    -moz-box-shadow: 1px 1px 18px -1px rgba(0,0,0,0.300000);   
+    box-shadow: 1px 1px 18px -1px rgba(0,0,0,0.300000); 
+    /* border-radius: 5px; 	*/
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    outline: none !important; 
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.compMenuItemHide{
+    display: none;
+}
+.compMenuItemShow{
+    display: block;
+}
+.oatablegraytemp
+{
+   
+    background-color: #EEEEEE;
+}
+
+.logindiv{
+  /*background: black;*/
+  /*color: white;*/
+  width: 800px;
+  margin-left: -400px;
+  left: 50%;
+  
+  height: 320px;
+  /*transform: translate(35%, 0%);*/
+  position: absolute;
+  bottom:50%;
+  margin-bottom: -180px;
+  
+  /*padding: 20px;*/
+  /*resize: both;*/
+  -webkit-box-shadow: 3px 3px 20px -4px rgba(0,0,0,0.140000);  
+  /*opacity: 0.7;*/
+  overflow: auto;
+}
+.rightlogindiv
+{
+    /*opacity: 0.7;*/    
+    opacity: 0.85;
+    filter: 'alpha(opacity=85)';
+    -ms-filter: 'alpha(opacity=85)';
+    background-color: #CDCDCD;
+}
+.backgroundwhite
+{
+   
+    background-color: white;
+}
+.oabannertext1{
+    color: black;
+    font-size: 11pt;
+    font-weight: normal;
+    font-family: arial, sans-serif;   
+    line-height: 1.33;
+    text-align: justify;
+    display: block;
+}
+.bottomtext{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+  
+}
+.oawidth50top {
+    width: 50%;
+    vertical-align: top;
+}
+.logintext {
+    vertical-align: top;
+    font: 22pt Arial;
+    color: black;
+}
+
+
+
+
+/** { box-sizing:border-box; }*/
+
+.group { 
+	position: relative; 
+	margin-bottom: 12px; 
+}
+
+.inputlogin {
+	/*font-size: 18px;*/
+	padding: 10px 10px 10px 5px;
+	/*-webkit-appearance: none;*/
+	/*display: block;*/
+	/*background: #fafafa;*/
+	color: #636363;
+	box-sizing:border-box;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+.inputlogin:focus { outline: none; }
+
+
+/* Label */
+
+.userlabel {
+	color: #999; 
+	font-size: 13px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 35px;
+	top: 10px;
+	-webkit-transition:all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+
+/* active */
+/*
+.userlabelfocus{
+	top: -10px;
+        -webkit-transform: scale(.75);
+          transform: scale(.75); left: 28px;
+	 font-size: 11px; 
+	color: #4a89dc;
+}*/
+
+
+/* Underline */
+
+.bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.bar:before, .bar:after {
+	content: '';
+	height: 2px; 
+	width: 0;
+	bottom: 1px; 
+	position: absolute;
+	background: #4a89dc; 
+	-webkit-transition:all 0.2s ease; 
+	transition: all 0.2s ease;
+}
+
+.bar:before { left: 50%; }
+
+.bar:after { right: 50%; }
+
+
+/* active */
+
+.inputlogin:focus ~ .bar:before, .inputlogin:focus ~ .bar:after { width: 50%; }
+
+
+/* Highlight */
+
+.highlight {
+	position: absolute;
+	height: 60%; 
+	width: 100px; 
+	top: 25%; 
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+
+/* active */
+
+.inputlogin:focus ~ .highlight {
+	-webkit-animation: inputHighlighter 0.3s ease;
+	        animation: inputHighlighter 0.3s ease;
+}
+
+.cabinet{
+        font-size: 13px;
+	padding: 10px 10px 10px 5px;
+        line-height:36px;
+	/*-webkit-appearance: none;*/
+	/*display: block;*/
+	background: #fafafa;
+	color: #636363;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+.cabinet:focus { outline: none; }
+
+.loginbuttonstyle
+{
+    width: 125px;
+    height:28px;
+    background-color:#0072C6;
+    cursor: pointer;
+    text-align: center;
+    padding: 0px 0px 0px 0px !important;
+    border-style : solid;
+    border-color : #dddddd;
+    border-width: 1px;
+    color: white;
+}
+.userimage {
+	color: #999; 
+	/*font-size: 18px;*/
+	/*font-weight: normal;*/
+	position: absolute;
+	pointer-events: none;
+	left: 0px;
+	top: 2px;
+        
+	
+}
+.imagetext{
+    position: absolute;
+    padding-left: 160px;
+    padding-right: 40px;
+    top: 0px;
+    text-align: left;
+    font: 11pt Arial;
+}
+.imagelabel{
+    text-align: left;
+    /*padding-left: 45px;*/
+    font: 8pt Arial;
+    padding-top: 2px;
+}
+/*input[type='text']:valid {
+    background-color: green !important;
+}
+input[type='text']:invalid {
+    background-color: red !important;
+}*/
+/*  ----------------  Message div (start)  ---------------------------------  */
+.errorMsgdiv_ln{
+    border:none;
+    background-color: #ffd3d4;
+    width:100%;
+    height: 26px !important;
+    line-height: 26px !important;    
+    text-align: left;
+    padding:1px;
+}
+
+
+
+.errorIcondiv_ln{
+    background:url(/omniapp/javax.faces.resource/icon_err.png.jsf?ln=images) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width:16px;
+    height:16px;
+    display:block;
+    margin-left:10px;
+}
+
+
+.messagediv_ln{
+    font-size:11px;
+    font-family:Arial;
+    font-style: Normal;
+    color: #000000; 
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    line-height:1.4;
+}
+/*  ----------------  Message div (end)  ---------------------------------  */
+
+.textalignleft{
+    text-align:left
+}
+.labelbluebold {
+    font: bold 11pt Arial ;
+    color: #0072c6;
+}
